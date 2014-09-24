@@ -6,7 +6,8 @@ documentation website for FoodCoopNL's version of Foodsoft.
 
 Please feel free to add and improve this :)
 
-For PDFs and images, we try to keep the sources here as well.
+For PDFs and images, we try to keep the sources here as well. To export multi-page
+SVGs in Inkscape, you can use the plugin [found here](https://github.com/wvengen/inkscape-addons).
 
 
 Developer docs
