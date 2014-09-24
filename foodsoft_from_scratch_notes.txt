@@ -1,0 +1,79 @@
+Foodsoft re-build notes
+=======================
+
+If we were to rebuild Foodsoft from scratch, what would we use?
+
+There's a small initial attempt (with screenshots) at
+  https://github.com/foodcoops/foodsoft-archive/tree/from-scratch-basic02
+
+
+* Ruby 2.1 + Rails 4.1
+* Bootstrap3
+
+
+* what about Spree?
+  AND https://github.com/openfoodfoundation/openfoodnetwork (!)
+    spree + spree_auth_devise + spree_shared + spree_comments
+          + spree_editor + spree_print_invoice
+    ? spree_simple_dash   
+    ? spree_multi_domain for sharing orders between foodcoops
+  (probably) missing features:
+  - tolerance
+  - receive & distribute screens and PDFs
+
+
+* active_admin
+  + map display type 
+  ? https://github.com/bloomrain/activeadmin_resque
+  ? https://github.com/macfanatic/active_admin-state_machine
+  ? https://github.com/Fivell/active_admin_import
+  ? https://github.com/Ricardonacif/active_admin_jcrop
+  
+* and/or activescaffold? http://activescaffold.com/
+
+* Money object for price (supports multiple currencies & display helpers)
+    https://github.com/RubyMoney/money-rails
+
+* Rich-text editor
+    https://github.com/the-robear/quill-rails
+    https://github.com/ejholmes/active_admin_editor
+    http://ckeditor.com/ (see also ActiveAdmin wiki)
+
+* Devise + CanCan (+ Rolify)
+    https://github.com/plataformatec/devise
+      + authenticatable confirmable recoverable registerable rememberable approvable
+      + https://github.com/mhfs/devise-async
+      ? http://jcnnghm.github.com/devise_mailchimp/
+      ? http://github.com/scambra/devise_invitable
+    https://github.com/ryanb/cancan
+    ? http://eppo.github.io/rolify/
+    OR ? https://github.com/TheProfitCMS/the_role_bootstrap3_ui (!)
+
+* Email templates
+    http://zurb.com/ink/templates.php
+    https://github.com/fphilipe/premailer-rails
+* Sending mails using Resque
+    https://github.com/zapnap/resque_mailer
+
+* State machine for
+  - order cycle
+  - membership status
+
+* Financial backend
+  https://github.com/stefankroes/mt940 (import bank transactions)
+
+* Require all units to be a valid ruby-unit (so we can do computations)
+  perhaps with aggregations, e.g. 3x125ml or 4x2x50g.
+
+----------------------
+* Ruby on REST
+    https://github.com/apotonick/roar
+    http://stackoverflow.com/questions/4426467/ruby-on-rails-with-rest-api
+
+* Messaging
+    https://github.com/mailboxer/mailboxer
+
+* Misc
+    https://github.com/markets/awesome-ruby
+    https://github.com/rwz/adequate_exposure
+    

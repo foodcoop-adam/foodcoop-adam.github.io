@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<title>FC Group Demo</title>
+<base href="https://order.foodcoop.nl" />
+<link href="/groupdemo/assets/application-d9fc524e6014d45381de502ac157ee89.css" media="all" rel="stylesheet" type="text/css" />
+<!-- /%link(href="images/favicon.ico" rel="shortcut icon") -->
+
+<style type="text/css"><!--
+.controls { margin-left: 105px !important}
+.control-label { width: 90px !important}
+.page-footer { color: #888 }
+.page-footer a { color: #888 }
+//--></style>
+
+</head>
+<body>
+<div class='container'>
+<div class='row'>
+
+  <div class='span8 offset3'>
+
+    <div class='page-header'>
+      <h1>FC Group Demo</h1>
+    </div>
+
+    <div class="pull-right" style: 'width: 280px'>
+
+      <form accept-charset="UTF-8" action="/groupdemo/all/sessions" class="form-horizontal" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <div class="controls">
+            <h4>Bestellen</h4>
+        </div>
+        <div class='control-group'>
+          <label class='control-label' for='nick'>Email</label>
+          <div class='controls'><input autocapitalize="off" autocorrect="off" id="nick" name="nick" type="text" class="input-medium" /></div>
+        </div>
+        <div class='control-group'><label class='control-label' for='password'>Wachtwoord</label>
+          <div class='controls'><input autocapitalize="off" autocorrect="off" id="password" name="password" type="password" class="input-medium" /></div>
+        </div>
+        <div class='control-group'>
+          <div class="controls">
+            <input class="btn" name="commit" type="submit" value="Login" />
+            <a href="/groupdemo/all/login/forgot_password">wachtwoord kwijt?</a>
+          </div>
+        </div>
+      </form>
+
+      <hr/>
+      <form accept-charset="UTF-8" action="/groupdemo/all/login/signup" method="get">
+        <div class='control-group'>
+          <div class="controls">
+            <h4>Inschrijven</h4>
+          </div>
+        </div>
+        <div class='control-group'>
+          <div class="controls">
+            <input class="btn" name="commit" type="submit" value="Ik doe mee!" />
+          </div>
+        </div>
+      </form>
+      <hr/>
+
+
+
+
+    </div>
+
+
+    <div style='width: 470px'>
+      <p>Een voedselcollectief is een groep mensen die samen hun dagelijkse
+      behoefte aan verse groenten, fruit en mogelijk ook andere
+      voedingsmiddelen in de regio inkopen. Het levert diverse voordelen
+      op:</p>
+      <ul>
+        <li>een eerlijke prijs voor de boer, hoger dan dat ze van de retail krijgen</li>
+        <li>een betere prijs voor jou als consument, veel lager dan dat je nu betaalt bij de natuurwinkel of supermarkt</li>
+        <li>geen pesticiden of conserveringsmiddelen: pure producten, vaak biologisch, altijd ecologisch verantwoord</li>
+        <li>minder co2 uitstoot door minder transport en minder verpakkingsmateriaal</li>
+        <li>meer contact tussen buur en boer: een sociaal systeem</li>
+      </ul>
+      <p>Het werkt simpel: je wordt lid van een groep bij jou in de buurt en
+      ontvangt een inlog voor de bestelsite. Hier bestel je jouw producten en
+      reken je online je bestelling af. Als voedselcollectief bundelen we deze
+      bestellingen en halen we de producten op bij de boeren. Vervolgens wordt
+      jouw bestelling op een vaste dag afgeleverd bij het afhaalpunt in je buurt.
+      Hier kun je jouw bestelling vervolgens ophalen. Het is ook een 'sociaal
+      systeem', want als buurtgroep heb je dus je eigen afhaalpunt, bepaal je
+      zelf wat jullie afhaaldag is en kun je ook zelf leveranciers voor jullie
+      producten aandragen (bv. de groenten uit jullie eigen buurtmoestuin).</p>
+    </div>
+
+
+  <footer class='page-footer'>
+    <p class="pull-right"><a href="/groupdemo/central/orders">centrale verdeling</a></p>
+    <p>Powered by <a href="http://www.foodcoop.nl/">FoodCoopNL</a></p>
+  </footer>
+
+  </div>
+</div>
+</div>
+
+<!--
+Javascripts
+==================================================
+-->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/groupdemo/assets/application-fcf517477146ee4e06177c1de91200bd.js" type="text/javascript"></script>
+<script>
+  I18n.defaultLocale = "nl";
+  I18n.locale = "nl";
+  I18n.fallbacks = true;
+</script>
+<script>
+  $(function() {
+    $('#nick').focus();
+  });
+</script>
+
+</body>
+</html>

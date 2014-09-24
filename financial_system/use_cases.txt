@@ -1,0 +1,66 @@
+FoodCoopNL financial system - use cases
+=======================================
+
+Goal:
+- minder tijd kwijt aan administratie, max. 4h/week voor 20 voedselcoöperaties.
+- (als past binnen scope) inzicht voor betrokken partijen in hun financiële gegevens
+
+Scope:
+- max. tijdsinvestering 40h
+
+(Mogelijke) Actors:
+* (medewerkers van) FoodCoopNL
+* Bank van FoodCoopNL
+* Voedselcoöperaties
+* Leden van voedselcoöperaties
+* Leveranciers
+* Betaalprovider
+
+
+User narrative
+--------------
+
+Primary actor: FoodCoopNL.
+
+FoodCoopNL gaat vrijdagochtend de wekelijkse administratie doen voor de
+bestellingen van foodcoops van de afgelopen week. Hij logt in op het financiële
+systeem en krijgt een overzicht van de bestellingen van voedselcoöperaties. Het
+systeem vertelt hem wie welk bedrag tegoed heeft en hoe dat tot stand gekomen
+is. Ook ziet hij welke bestellingen nog niet helemaal afgerond zijn en waar nog
+actie ondernomen mag worden.
+Vervolgens doet hij de overschrijvingen en stuurt facturen. In het systeem
+ziet hij daarna dat deze acties afgesloten zijn.
+Ieder kwartaal maakt hij een totaaloverzicht voor het administratiearchief.
+Vervolgens gaat hij voldaan zijn weekend in.
+
+
+Use case
+--------
+
+Primary actor: (medewerker van) FoodCoopNL
+Scope: betalen leveranciers
+Level: user goal
+Main success scenario:
+  1. Gebruiker logt in
+  2. Gebruiker ziet overzicht van de bestellingen en controleert afgelopen week
+  3. Gebruiker maakt en verstuurt facturen waar relevant
+  4. Gebruiker gaat naar overzicht van facturen
+  5. Gebruiker betaalt open facturen via bank
+  6. Systeem ziet betaaltransacties en werkt status van facturen bij
+  7. Gebruiker ziet dat de wekelijkse administratie afgerond is.
+Extensions:
+* (falende scenario's)
+Open questions:
+* wat ziet hij precies op besteloverzicht?
+* hoe ziet een factuur er precies uit?
+* flow-chart bestelling/bestelronde
+
+
+Technology used:
+- active_admin - http://activeadmin.info/
+- PDF (facturen) mbv éen van:
+  * https://github.com/pdfkit/pdfkit
+  * https://github.com/mileszs/wicked_pdf
+- state machines - bijv. mbv. https://github.com/macfanatic/active_admin-state_machine
+
+
