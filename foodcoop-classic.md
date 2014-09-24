@@ -9,5 +9,6 @@ at [foodcoops](https://github.com/foodcoops/foodsoft).
 
 {% include foodcoop-general.md %}
 
-* [Demonstration site](https://app.foodcoops.net/demo/) (login with `admin`/`secret` or `test`/`foobar`).
+* Get [support](https://github.com/foodcoops/foodsoft/wiki/Support)
 
+* [Demonstration site](https://app.foodcoops.net/demo/) (login with `admin`/`secret` or `test`/`foobar`).

@@ -12,6 +12,8 @@ with a number of pickup points (this is provided by Foodsoft's `multishared` plu
 
 {% include foodcoop-general.md %}
 
+* Get support: your contact at FoodCoopNL, or [mail us](mailto:info@foodcoop.nl)
+
 * [Member demonstration site](https://order.foodcoop.nl/kleingemaakt/demo)
   of a foodcoop.
 

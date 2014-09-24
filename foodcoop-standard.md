@@ -12,6 +12,8 @@ Documentation for standard version of Foodsoft provided by FoodCoopNL.
 
 {% include foodcoop-general.md %}
 
+* Get support: your contact at FoodCoopNL, or [mail us](mailto:info@foodcoop.nl)
+
 * [Member demonstration site](https://order.foodcoop.nl/kleingemaakt/demo)
   of a foodcoop.
 
