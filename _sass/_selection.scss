@@ -1,0 +1,39 @@
+.button-select-wrapper {
+  text-align: center;
+  list-style-type: none;
+
+  > li {
+    display: inline-block;
+    > a {
+      display: inline-block;
+      width: 13em;
+      height: 4.5em;
+      vertical-align: top;
+  
+      font-size: 90%;
+      color: #333;
+      background-color: #f5f5f5;
+      text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+  
+      border: 1px solid #ccc;
+      -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+      -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+  
+      margin: 10px;
+      padding: 5px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      .title {
+	 font-size: 110%;
+	 display: block;
+      }
+    }
+    > a:hover {
+      background-color: #e6e6e6;
+      text-decoration: none;
+      color: #333;
+    }
+  }
+}

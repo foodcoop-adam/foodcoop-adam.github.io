@@ -1,0 +1,19 @@
+title: Foodsoft @ FoodCoopNL
+tagline: making foodcoops work, today and tomorrow
+description: >
+  Documentation site for Foodsoft at FoodCoopNL, hosted and open source
+  software for running a food cooperative.
+
+avatar: https://avatars3.githubusercontent.com/u/4671816
+twitter_username: foodsoftdev
+github_username: foodcoop-adam
+external_link:
+  title: FoodCoopNL
+  href: http://www.foodcoop.nl/
+
+timezone: Europe/Amsterdam
+
+# Build settings
+markdown: kramdown
+highlighter: pygmenter
+
