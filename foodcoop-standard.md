@@ -7,7 +7,8 @@ Standard edition
 Documentation for standard version of Foodsoft provided by FoodCoopNL.
 
 * Short manual for members
-  ([Dutch](documents/foodsoft-manual-members.nl.pdf))
+  ([Dutch](documents/foodsoft-manual-members.nl.pdf), or
+   without payment: [Dutch](documents/foodsoft-manual-members-without-payment.nl.pdf))
 
 * Concise foodcoop manual on the order cycle
   ([English](documents/foodsoft-manual-foodcoop-fcnl.en.pdf),
