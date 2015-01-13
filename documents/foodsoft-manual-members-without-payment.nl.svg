@@ -14,7 +14,7 @@
    height="1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="foodsoft-manual-members-without-payment.nl.svg">
   <sodipodi:namedview
      id="base"
@@ -23,16 +23,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7071068"
-     inkscape:cx="187.3116"
-     inkscape:cy="567.72089"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="222.60912"
+     inkscape:cy="538.34449"
      inkscape:document-units="px"
-     inkscape:current-layer="g3083"
+     inkscape:current-layer="g3343"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="745"
+     inkscape:window-width="2560"
+     inkscape:window-height="1496"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="55"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -609,7 +609,7 @@
        xlink:href="#linearGradient6715"
        id="linearGradient6843"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.7744,0,0,1.9697,-1892.2,-872.89)"
+       gradientTransform="matrix(2.7744,0,0,1.9697,-1892.2,-1624.9661)"
        x1="302.85999"
        y1="366.64999"
        x2="302.85999"
@@ -619,7 +619,7 @@
        xlink:href="#linearGradient5060"
        id="radialGradient6845"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.7744,0,0,1.9697,-1891.6,-872.89)"
+       gradientTransform="matrix(2.7744,0,0,1.9697,-1891.6,-1624.9661)"
        cx="605.71002"
        cy="486.64999"
        r="117.14" />
@@ -628,7 +628,7 @@
        xlink:href="#linearGradient5060"
        id="radialGradient6847"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-2.7744,0,0,1.9697,112.76,-872.89)"
+       gradientTransform="matrix(-2.7744,0,0,1.9697,112.76,-1624.9661)"
        cx="605.71002"
        cy="486.64999"
        r="117.14" />
@@ -637,7 +637,7 @@
        xlink:href="#linearGradient2569"
        id="linearGradient6849"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,0.78572)"
+       gradientTransform="translate(0,-16.337553)"
        x1="6.7856998"
        y1="30.785999"
        x2="42.214001"
@@ -647,7 +647,7 @@
        xlink:href="#linearGradient2582"
        id="linearGradient6851"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,0.78572)"
+       gradientTransform="translate(0,-17.381246)"
        x1="13.357"
        y1="14.429"
        x2="42.214001"
@@ -657,7 +657,7 @@
        xlink:href="#linearGradient20716"
        id="linearGradient6853"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(2.7397,-6.2192)"
+       gradientTransform="translate(2.7397004,-6.2191998)"
        x1="828.13"
        y1="403.42001"
        x2="631.53998"
@@ -667,7 +667,7 @@
        xlink:href="#linearGradient20718"
        id="linearGradient6855"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-114.94,39.935)"
+       gradientTransform="translate(-114.94,39.934997)"
        x1="706.98999"
        y1="526.10999"
        x2="809.57001"
@@ -687,7 +687,7 @@
        xlink:href="#linearGradient20716"
        id="linearGradient6859"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(2.7397,-6.2192)"
+       gradientTransform="translate(2.7397004,-6.2191998)"
        x1="828.13"
        y1="403.42001"
        x2="631.53998"
@@ -697,7 +697,7 @@
        xlink:href="#linearGradient20718"
        id="linearGradient6861"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-114.94,39.935)"
+       gradientTransform="translate(-114.94,39.934997)"
        x1="706.98999"
        y1="526.10999"
        x2="809.57001"
@@ -1410,7 +1410,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1430,7 +1430,7 @@
          id="tspan2987"
          x="372.95132"
          y="88.237511"
-         style="font-size:35.8510437px;font-weight:bold;-inkscape-font-specification:Arial Bold">Vokomokum Vers</tspan></text>
+         style="font-size:35.8510437px;font-weight:bold;-inkscape-font-specification:Arial Bold">Voedselcollectief</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text2989"
@@ -1785,18 +1785,18 @@
            xml:space="preserve"
            style="font-size:66.63030243px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
            x="55.888592"
-           y="870.32336"
+           y="886.48352"
            id="text3177-0-9"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
              id="tspan3942"
              x="55.888592"
-             y="870.32336">6</tspan></text>
+             y="886.48352">6</tspan></text>
         <flowRoot
            xml:space="preserve"
            id="flowRoot3181-2-0"
            style="font-size:28px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
-           transform="matrix(0.93468684,0,0,0.93468684,64.76185,557.9737)"><flowRegion
+           transform="matrix(0.93468684,0,0,0.93468684,64.76185,573.9737)"><flowRegion
              id="flowRegion3183-3-2"><rect
                id="rect3185-8-6"
                width="236.66608"
@@ -1805,7 +1805,7 @@
                y="263.23102"
                style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium" /></flowRegion><flowPara
              id="flowPara3189-4-6">ophalen</flowPara></flowRoot>        <g
-           transform="matrix(0.9344008,0,0,0.9344008,53.53937,865.74231)"
+           transform="matrix(0.9344008,0,0,0.9344008,53.53937,881.74231)"
            id="layer1-7">
           <g
              id="g6707"
