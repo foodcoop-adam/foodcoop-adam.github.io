@@ -14,5 +14,3 @@ timezone: Europe/Amsterdam
 
 # Build settings
 markdown: kramdown
-highlighter: pygmenter
-
