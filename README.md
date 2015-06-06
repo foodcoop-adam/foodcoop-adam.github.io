@@ -1,8 +1,8 @@
-FoodCoopNL documentation website
-================================
+Foodsoft@NL documentation website
+=================================
 
 This is the source for http://foodcoop-adam.github.io/ , the user and foodcoop
-documentation website for FoodCoopNL's version of Foodsoft.
+documentation website for the Dutch Foodsoft fork.
 
 Please feel free to add and improve this :)
 

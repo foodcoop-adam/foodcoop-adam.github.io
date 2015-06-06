@@ -9,7 +9,7 @@ own choosing. A collective do-it-yourself supermarket. Members order their
 products online and collect them on a specified day. And all put in a bit of
 work to make that possible. Foodsoft facilitates the process.
 
-Interested to start a foodcoop? Interested to sell your produce to consumer groups?
-Visit us at [www.foodcoop.nl](http://www.foodcoop.nl/)
+Interested to start a foodcoop?
+[Read how Foodsoft can help](https://github.com/foodcoops/foodsoft/wiki/For-foodcoops).
 
 {% include foodcoop-selection.html %}

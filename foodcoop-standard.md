@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-Standard edition
-================
+Foodsoft@NL edition
+===================
 
-Documentation for standard version of Foodsoft provided by FoodCoopNL.
+Documentation for the Dutch fork of Foodsoft.
 
 * Short manual for members
   ([Dutch](documents/foodsoft-manual-members.nl.pdf), or
@@ -16,8 +16,6 @@ Documentation for standard version of Foodsoft provided by FoodCoopNL.
 
 {% include foodcoop-general.md %}
 
-* Get support: your contact at FoodCoopNL, or [mail us](mailto:info@foodcoop.nl)
-
-* [Member demonstration site](https://order.foodcoop.nl/kleingemaakt/demo)
+* [Member demonstration site](https://order.voedselcollectief.org/kleingemaakt/demo)
   of a foodcoop.
 
